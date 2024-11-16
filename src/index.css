@@ -1,10 +1,32 @@
 @import url("./button/style.css");
 :root {
-  /* Color Variables */
-  --color-primary: #5ca67d;
-  --color-primary-light: #7bb892;
-  --color-primary-dark: #4a8b67;
-  --color-white: #ffffff;
+   /* Primary Colors */
+   --color-primary: #5ca67d;           /* Updated primary color */
+   --color-primary-light: #7bb892;     /* Lighter variant of primary for hover states */
+   --color-primary-dark: #4a8b67;      /* Darker variant of primary for active states */
+ 
+   /* Secondary Colors */
+   --color-secondary: #0b0f1f;         /* Updated main secondary color */
+   --color-secondary-light: #141a2b;   /* Slightly lighter variant for hover or backgrounds */
+   --color-secondary-dark: #070a14;    /* Darker variant for emphasis or text */
+ 
+   /* Neutral Colors */
+   --color-gray: #b0b3bc;              /* Gray for borders and inactive icons */
+   --color-neutral-light: #e1e3eb;        /* Light gray for secondary backgrounds */
+   --color-neutral-dark: #555a6e;         /* Dark gray for text */
+   --color-white: #fdfdff;  
+   --color-black: #000000;           
+ 
+   /* Text Colors */
+   --color-text-primary: #0b0f1f;      /* Using secondary color for primary text */
+   --color-text-secondary: #555a6e;    /* Dark gray for secondary text */
+   --color-text-accent: #5ca67d;       /* Primary color for accent text */
+ 
+   /* Alert/Feedback Colors */
+   --color-error: #D32F2F;             /* Red for errors */
+   --color-warning: #F57C00;           /* Orange for warnings */
+   --color-info: #1976D2;              /* Blue for informational text */
+   --color-success: #388E3C;           /* Green for success states */
 
   /* Button Variables */
   --button-padding: 8px 16px;

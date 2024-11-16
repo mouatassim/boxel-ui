@@ -4,7 +4,7 @@
   --button-font-size: var(--font-size-base);
   --button-font-weight: var(--font-weight-regular);
 
-  --button-bg: var(--color-primary);
+  --button-bg: var(--color-secondary);
   --button-color: var(--color-white);
   --button-hover-bg: var(--color-primary-light);
   --button-active-bg: var(--color-primary-dark);

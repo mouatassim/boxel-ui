@@ -1,7 +1,7 @@
 import { LitElement, css, html } from "lit";
 import { customElement } from "lit/decorators.js";
 @customElement("boxel-button-default")
-export class ResButton extends LitElement {
+export class Button extends LitElement {
   render() {
     return html`
       <button part="button">
@@ -33,6 +33,6 @@ export class ResButton extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    "boxel-button-default": ResButton;
+    "boxel-button-default": Button;
   }
 }
